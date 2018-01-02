@@ -111,4 +111,4 @@ class Popover extends React.Component{
   }
 };
 
-module.exports = Popover;
+export default Popover;

@@ -1,6 +1,6 @@
 {
   "name": "react_popover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React popover component is a floating container attached to an element",
   "main": "dist/index.js",
   "scripts": {
@@ -21,8 +21,6 @@
     "babel-preset-stage-2": "^6.24.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-fontawesome": "^1.6.1",
-    "textfield": "^1.0.3",
     "webpack": "^3.10.0"
   },
   "repository": {
