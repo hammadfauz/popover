@@ -1,6 +1,6 @@
 {
   "name": "react_popover",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React popover component is a floating container attached to an element",
   "main": "dist/index.js",
   "scripts": {

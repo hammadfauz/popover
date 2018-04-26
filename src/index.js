@@ -17,6 +17,9 @@ class Popover extends React.Component{
   setRef (ref) {
     this.state.menu = ref;
     this.setState(this.state);
+    if (typeof this.props.getRef === 'function') {
+      this.props.getRef(ref);
+    }
   }
   componentDidMount () {
     window.addEventListener('scroll',this.reposition);
